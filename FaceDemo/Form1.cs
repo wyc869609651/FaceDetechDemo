@@ -166,6 +166,8 @@ namespace FaceDemo
             }
             else
             {
+                picPath1 = String.Empty;
+                picPath2 = String.Empty;
                 text = jObject.GetValue("error_msg").ToString();
             }
             return text;
